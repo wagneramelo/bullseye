@@ -14,6 +14,7 @@
 		035480111CA0BE7400027720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0354800F1CA0BE7400027720 /* LaunchScreen.storyboard */; };
 		0354801C1CA0BE7500027720 /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0354801B1CA0BE7500027720 /* BullsEyeTests.swift */; };
 		035480271CA0BE7500027720 /* BullsEyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035480261CA0BE7500027720 /* BullsEyeUITests.swift */; };
+		035480351CA1D6D600027720 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035480341CA1D6D600027720 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		035480221CA0BE7500027720 /* BullsEyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		035480261CA0BE7500027720 /* BullsEyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeUITests.swift; sourceTree = "<group>"; };
 		035480281CA0BE7500027720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035480341CA1D6D600027720 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				035480061CA0BE7400027720 /* AppDelegate.swift */,
 				035480081CA0BE7400027720 /* ViewController.swift */,
 				0354800A1CA0BE7400027720 /* Main.storyboard */,
+				035480341CA1D6D600027720 /* AboutViewController.swift */,
 				0354800D1CA0BE7400027720 /* Assets.xcassets */,
 				0354800F1CA0BE7400027720 /* LaunchScreen.storyboard */,
 				035480121CA0BE7400027720 /* Info.plist */,
@@ -193,13 +196,16 @@
 				TargetAttributes = {
 					035480021CA0BE7400027720 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
 					};
 					035480161CA0BE7500027720 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
 						TestTargetID = 035480021CA0BE7400027720;
 					};
 					035480211CA0BE7500027720 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
 						TestTargetID = 035480021CA0BE7400027720;
 					};
 				};
@@ -256,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035480351CA1D6D600027720 /* AboutViewController.swift in Sources */,
 				035480091CA0BE7400027720 /* ViewController.swift in Sources */,
 				035480071CA0BE7400027720 /* AppDelegate.swift in Sources */,
 			);
@@ -403,6 +410,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WaSoX.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -414,6 +422,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WaSoX.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -425,6 +434,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WaSoX.BullsEyeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BullsEye.app/BullsEye";
 			};
 			name = Debug;
@@ -437,6 +447,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WaSoX.BullsEyeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BullsEye.app/BullsEye";
 			};
 			name = Release;
@@ -448,6 +459,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WaSoX.BullsEyeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = BullsEye;
 			};
 			name = Debug;
@@ -459,6 +471,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WaSoX.BullsEyeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = BullsEye;
 			};
 			name = Release;
@@ -482,6 +495,7 @@
 				0354802D1CA0BE7500027720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0354802E1CA0BE7500027720 /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +504,7 @@
 				035480301CA0BE7500027720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		035480311CA0BE7500027720 /* Build configuration list for PBXNativeTarget "BullsEyeUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +513,7 @@
 				035480331CA0BE7500027720 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
